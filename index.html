@@ -7,8 +7,66 @@
 </head>
 <body>
     <header>
-        <h1>Clean Slate</h1>
+        <h1>My Skills in Detail</h1>
     </header>
-    
+    <section id="skillTable">
+        <table>
+            <thead>
+                <tr id="topRow">
+                    <th></th>
+                    <th>Table</th>
+                </tr>
+                <tr>
+                    <th>Concept</th>
+                    <th>Description</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C#</td>
+                    <td> Solid on syntax, best practices, classes, and application creation.</td>
+                    <td>***</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>I can create simple layout. Still fuzzy on forms and the right tags to use.</td>
+                    <td>**</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>I can change colors, fonts, help make it responsive. Still figuring out flex boxes!</td>
+                    <td>**</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Created a silly game following a beginner's guide. Generally understand the syntax and concepts. Still dependent on guides for fancy visuals.</td>
+                    <td>**</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <seciton id="contact">
+        <div id="form" style="border: 3px solid black;">
+            <form>
+                <h4>Please Contact Me for Contracts</h4>
+                <label for="name">Name: </label>
+                <input text="text" placeholder="Your Name">
+                <br>
+                <label for="email">Email: </label>
+                <input text="email" placeholder="email@hostname.com">
+                <br>
+                <label for="description">Description: </label>
+                <br>
+                <textarea
+                id="description" name="description"
+                rows="5" cols="50"
+                ></textarea>
+            </form>
+            <button>Submit</button>
+        </div>
+
+    </seciton>
 </body>
 </html>
